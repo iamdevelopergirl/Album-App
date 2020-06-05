@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+li {
+    color: white;
+    text-align: -webkit-left;
+    margin: 2em 0;
+}
+
+a {
+    text-decoration: none;
+    color : white;
+}
+  
+.link-style{
+    color: white;
+    font-size: 16px;
+}
+
+li:active, a:active {
+    font-weight: bold;
+}
+
+li:hover, a:hover {
+    list-style: none;
+    font-weight: bold;
+}
+
+.margin-right {
+    margin-right: 20px;
+}

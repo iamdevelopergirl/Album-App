@@ -1,0 +1,74 @@
+.album-tile {
+    width: 240px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.album-tile:hover{
+    box-shadow: 0 0 20px #414140;
+}
+    
+.tile-container{
+    width: 240px;
+}
+    
+.tile-container:hover .title-options{
+    display:block;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+    
+.items-content {
+    width: 100%;
+}
+
+.logo-container{
+    width: 240px;
+    height: 189px;
+    position:relative;
+}
+
+.tile-icon {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 200px;
+    width: inherit;
+}
+
+.name-container{
+    width: 238px;
+    height: 75px;
+    background-color: #ffffff;
+    border-top: solid 1px #dadada;
+    position: relative;
+}
+    
+.art-name {
+    width: 185px;
+    line-height: 1.0;
+    letter-spacing: normal;
+    color: #333333;
+    margin-top: 20px;
+    text-align: left;
+    overflow: hidden;
+    font-size: 20px;
+    letter-spacing: -0.35px;
+    color: #777777;
+    font-family: SourceSansPro;
+}
+    
+.artist-name{
+    margin-top: 10px;
+    text-align: left;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
